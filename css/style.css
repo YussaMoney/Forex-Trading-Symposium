@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.hover{
+    color: #d3d3d3 !important;
+}
+
+.hover :hover{
+    color: #fff !important;
+}
