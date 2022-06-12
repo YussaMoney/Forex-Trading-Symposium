@@ -3,13 +3,25 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
-.hover{
-    color: #d3d3d3 !important;
+.hover {
+  color: #d3d3d3 !important;
+  font-size: 1vw !important;
 }
 
-.hover :hover{
-    color: #fff !important;
+.hover:hover {
+  color: #ffffff;
+}
+
+.yussa-logo{
+    width: 11vw !important;
+}
+
+.main-nav:hover{
+    color: #ec5242 !important;
+}
+.btn{
+    font-size: 1.5vw !important;
 }
