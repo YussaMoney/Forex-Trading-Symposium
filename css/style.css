@@ -12,16 +12,36 @@
 }
 
 .hover:hover {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
-.yussa-logo{
-    width: 11vw !important;
+.yussa-logo {
+  width: 11vw !important;
 }
 
-.main-nav:hover{
-    color: #ec5242 !important;
+.main-nav:hover {
+  color: #ec5242 !important;
 }
-.btn{
-    font-size: 1.5vw !important;
+.btn {
+  font-size: 1.5vw !important;
+}
+
+.banner {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+}
+
+.heading {
+  font-family: "COCOGOOSE", Lato, sans-serif;
+  font-size: 5vw;
+  background-image: linear-gradient(
+    45deg,
+    rgb(255, 0, 0) 0%,
+    rgb(33, 3, 3) 33%,
+    rgb(236, 82, 66) 56%
+  );
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
