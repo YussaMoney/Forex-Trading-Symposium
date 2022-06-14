@@ -32,7 +32,7 @@
 }
 
 .heading {
-  font-family: "COCOGOOSE", 'Lato', sans-serif;
+  font-family: "COCOGOOSE", "Lato", sans-serif;
   font-size: 5vw;
   background-image: linear-gradient(
     45deg,
@@ -46,6 +46,26 @@
   -webkit-text-fill-color: transparent;
 }
 
-.heading-footer{
+.heading-footer {
   font-size: 0.8rem;
+}
+
+.date {
+  font-family: "COCOGOOSE";
+}
+
+.programs {
+  background-image: url(../img/pattern2.png);
+}
+
+.program {
+  background: #9c9b9b38;
+}
+
+.program-heading::after {
+  content: '';
+  border: 1px solid #DC3545;
+  display: block;
+  width: 4rem;
+  margin: 0.5rem auto;
 }
