@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.hover {
+  color: #d3d3d3 !important;
+  font-size: 1vw !important;
+}
+
+.hover:hover {
+  color: #fff !important;
+}
+
+.yussa-logo {
+  width: 11vw !important;
+}
+
+.main-nav:hover {
+  color: #ec5242 !important;
+}
+
+.btn {
+  font-size: 1.5vw !important;
+}
+
+.ticket-heading::after {
+  content: "";
+  border: 1px solid #ec5242;
+  display: block;
+  width: 3rem;
+  margin: 0.5rem auto;
+}
+
+.step1 img {
+  width: 0.7rem;
+}
+
+.ticket-data {
+  background-image: linear-gradient(
+    45deg,
+    rgb(236, 82, 66) 12.5%,
+    rgb(255, 255, 255) 12.5%,
+    rgb(255, 255, 255) 25%,
+    rgb(61, 111, 142) 25%,
+    rgb(61, 111, 142) 37.5%,
+    rgb(255, 255, 255) 37.5%,
+    rgb(255, 255, 255) 5%,
+    rgb(236, 82, 66) 5%,
+    rgb(236, 82, 66) 62.5%,
+    rgb(255, 255, 255) 62.5%,
+    rgb(255, 255, 255) 75%,
+    rgb(61, 111, 142) 75%,
+    rgb(61, 111, 142) 87.5%,
+    rgb(255, 255, 255) 87.5%,
+    rgb(255, 255, 255) 100%
+  );
+
+  background-size: 40px 40px;
+  overflow-x: auto;
+}
