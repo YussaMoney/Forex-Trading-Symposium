@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.hover {
+  color: #d3d3d3 !important;
+  font-size: 1vw !important;
+}
+
+.hover:hover {
+  color: #fff !important;
+}
+
+.yussa-logo {
+  width: 11vw !important;
+}
+
+.main-nav:hover {
+  color: #ec5242 !important;
+}
+
+.btn {
+  font-size: 1.5vw !important;
+}
+
+.banner {
+  background-image: url(../img/pattern.png);
+  background-size: cover;
+}
+
+.heading {
+  font-family: "COCOGOOSE", "Lato", sans-serif;
+  font-size: 5vw;
+  color: #ec5242;
+}
