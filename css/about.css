@@ -37,3 +37,38 @@
   font-size: 5vw;
   color: #ec5242;
 }
+
+.logo-heading::after,
+.past-heading::after {
+  content: "";
+  border: 1px solid #ec5242;
+  display: block;
+  width: 3rem;
+  margin: 0.5rem auto;
+}
+
+.logo img {
+  width: 23rem;
+}
+
+.lagos-symposium {
+  background-image:
+    linear-gradient(
+        rgba(236, 82, 66, 0.7) 100%,
+        rgba(236, 82, 66, 1) 100%
+        ),
+    url(../img/2018-symposium.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.new_york-symposium {
+  background-image:
+    linear-gradient(
+        rgba(236, 82, 66, 0.7) 100%,
+        rgba(236, 82, 66, 1) 100%
+        ),
+    url(../img/2020-symposium.jpg);
+  background-size: cover;
+  background-position: center;
+}
