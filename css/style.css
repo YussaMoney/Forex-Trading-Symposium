@@ -64,12 +64,21 @@
 }
 
 .program-heading::after,
-.speakers-heading::after {
+.speakers-heading::after,
+.partners-heading::after {
   content: "";
-  border: 1px solid #dc3545;
+  border: 1px solid #ec5242;
   display: block;
   width: 4rem;
   margin: 0.5rem auto;
+}
+
+.partners-heading::after {
+  margin-top: 2rem;
+}
+
+.partners {
+  background-color: #272a31;
 }
 
 .speaker-title::after {
@@ -92,4 +101,12 @@
 .speaker-info {
   font-size: smaller !important;
   line-height: 1.75;
+}
+
+.company-text {
+  font-size: smaller !important;
+}
+
+.company-text a:hover {
+  color: blue !important;
 }
