@@ -60,12 +60,36 @@
 
 .program {
   background: #9c9b9b38;
+  font-size: smaller;
 }
 
-.program-heading::after {
-  content: '';
-  border: 1px solid #DC3545;
+.program-heading::after,
+.speakers-heading::after {
+  content: "";
+  border: 1px solid #dc3545;
   display: block;
   width: 4rem;
   margin: 0.5rem auto;
+}
+
+.speaker-title::after {
+  content: "";
+  border: 1px solid #d3d3d3;
+  width: 1.7rem;
+  display: block;
+  border-top-width: 0;
+  margin-top: 0.5rem;
+}
+
+.speaker-img {
+  width: 13rem !important;
+  height: 11rem !important;
+  background-image: url(../img/blank.png);
+  background-size: 5rem 5rem;
+  background-repeat: no-repeat;
+}
+
+.speaker-info {
+  font-size: smaller !important;
+  line-height: 1.75;
 }
