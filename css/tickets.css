@@ -73,3 +73,19 @@
 .lunch-text {
   background-color: #D3D3D3;
 }
+
+.submit-button {
+  background-color: #ec5242 !important;
+  text-align: center !important;
+  color: #d3d3d3 !important;
+  padding: 3rem 4rem !important;
+}
+
+.submit-button:hover {
+  color: #21252d !important;
+  border: 0;
+}
+
+.submit-button:focus{
+  border: 3px solid #d3d3d3 !important;
+}
