@@ -89,3 +89,20 @@
 .submit-button:focus{
   border: 3px solid #d3d3d3 !important;
 }
+
+.footer {
+  background-color: #414141;
+}
+
+.company-headings {
+  color: #b6b6b6;
+}
+
+.company-text {
+  color: #b6b6b6;
+  font-size: 0.8rem;
+}
+
+.company-text a:hover {
+  color: #0056B3 !important;
+}

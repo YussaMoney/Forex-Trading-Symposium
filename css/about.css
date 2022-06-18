@@ -85,3 +85,7 @@
     color: #b6b6b6;
     font-size: 0.8rem;
 }
+
+.company-text a:hover {
+  color: #0056B3 !important;
+}
